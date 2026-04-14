@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>WEATHER APP</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-       <h1>WEATHER APP</h1>
-       <input type="text" id="cityInput" placeholder="Enter city name">
-       <button onclick="getWeather()">Get Weather</button>
 
-       <div id="weatherResult"></div>
+<div class="app">
+
+  <div class="card">
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <span>📶</span>
+      <span id="time"></span>
+      <span>🔋</span>
     </div>
 
-    <script src="script.js"></script>
+    <h1>🌤 Weather</h1>
+
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Enter city...">
+      <button onclick="getWeather()">🔍</button>
+      <button onclick="getLocation()">📍</button>
+    </div>
+
+    <div id="weatherResult"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
