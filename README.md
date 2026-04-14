@@ -11,4 +11,4 @@ A modern weather app built using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 
-https://praptigawas-ux.github.io/Weather-app/
+ https://praptigawas-ux.github.io/Weather-app/
